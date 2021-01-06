@@ -18,10 +18,10 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(1200, 1200);
   
   //creating the background
-  bkground=createSprite(0,0,600,600);
+  bkground=createSprite(0,0,1000,1000);
   bkground.addImage(backgroundImage);
   bkground.scale = 2.5
   
