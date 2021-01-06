@@ -18,12 +18,12 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(1200, 1200);
+  createCanvas(windowWidth, windowHeight);
   
   //creating the background
-  bkground=createSprite(0,0,1000,1000);
+  bkground=createSprite(0,0,width,height);  
   bkground.addImage(backgroundImage);
-  bkground.scale = 2.5
+  bkground.scale = 3.5
   
   //adding image of bow
   bow = createSprite(480,220,20,50);
